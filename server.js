@@ -22,9 +22,9 @@ app.get('/article-one',function(req,res){
 app.get('/article-two',function(req,res){
    res.send('article one requested and served'); 
 });
-app.get('/desert.jpg', function (req, res) {
+/*app.get('/desert.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'desert.jpg'));
-});
+});*/
 
 
 // Do not change port, otherwise your app won't run on IMAD servers
