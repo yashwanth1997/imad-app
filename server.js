@@ -23,7 +23,7 @@ app.get('/article-two',function(req,res){
    res.send('article two requested and served'); 
 });
 app.get('/article-one',function(req,res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-one.html.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 /*app.get('/desert.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'desert.jpg'));
